@@ -1,0 +1,7 @@
+import { Camera, Mail, Phone } from "lucide-react";
+import { weddingData } from "@/data/weddingData";
+
+export function Footer() {
+  const { couple, wedding, contact, social, ui } = weddingData;
+  return <footer className="bg-dark-maroon px-6 py-16 text-center text-background sm:py-20"><p className="type-caption text-gold">{ui.footer.withLove}</p><p className="font-display mt-4 text-4xl sm:text-5xl">{couple.brideName} <span className="px-1 text-gold">&amp;</span> {couple.groomName}</p><p className="font-display mt-3 text-xl text-background/80">{wedding.heroDate}</p><div className="mx-auto mt-7 h-px w-16 bg-gold"/><p className="font-display mx-auto mt-7 max-w-md text-2xl italic leading-8 text-background/75">{ui.footer.closingLine}</p><div className="mx-auto my-9 h-px max-w-xs bg-background/20"/><div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-background/75">{social.instagram && <a className="link-underline inline-flex items-center gap-2 transition hover:text-gold" href={social.instagram} target="_blank" rel="noreferrer" aria-label={social.hashtag}><Camera size={16}/>{social.hashtag}</a>}<a className="link-underline inline-flex items-center gap-2 transition hover:text-gold" href={`tel:${contact.phone}`}><Phone size={16}/>{contact.displayPhone}</a>{contact.email && <a className="link-underline inline-flex items-center gap-2 transition hover:text-gold" href={`mailto:${contact.email}`}><Mail size={16}/>{contact.email}</a>}</div><p className="type-caption mt-12 text-gold/70">{ui.footer.copyright}</p></footer>;
+}
