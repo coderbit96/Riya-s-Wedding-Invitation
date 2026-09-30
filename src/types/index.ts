@@ -1,7 +1,7 @@
 export type EventIcon = "sparkle" | "music" | "heart";
 export interface Parents { father: string; mother: string; fatherBengali: string; motherBengali: string; }
 export interface Address { locality: string; city: string; pin: string; localityBengali: string; cityBengali: string; pinBengali: string; }
-export interface CoupleData { groomName: string; groomNameBengali: string; brideName: string; brideNameBengali: string; groomImage: string; brideImage: string; coupleImage: string; heroImage: string; groomParents: Parents; brideParents: Parents; groomAddress?: Address; }
+export interface CoupleData { groomName: string; groomNameBengali: string; brideName: string; brideNameBengali: string; groomImage: string; brideImage: string; coupleImage: string; heroImage: string; groomParents: Parents; brideParents: Parents; groomAddress?: Address; brideAddress?: Address; }
 export interface WeddingEvent { title: string; titleBengali: string; date: string; day: string; time: string; venue: string; address: string; visible: boolean; icon?: EventIcon; image?: string; imageAlt?: string; dressCode?: string; googleMapsUrl?: string; }
 export interface GalleryImage { src: string; alt: string; caption: string; category?: string; aspect?: "portrait" | "landscape" | "square"; }
 export interface FamilyMember { name: string; relation: string; }

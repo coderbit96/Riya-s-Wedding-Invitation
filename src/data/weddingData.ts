@@ -19,6 +19,7 @@ export const weddingData: WeddingData = {
     brideParents: { father: "Mr. Bhim Pramanick", mother: "Mrs. Rita Pramanick", fatherBengali: "Mr. Bhim Pramanick", motherBengali: "Mrs. Rita Pramanick" },
     groomParents: { father: "Mr. Samir Das", mother: "Mrs. Swapna Das", fatherBengali: "Mr. Samir Das", motherBengali: "Mrs. Swapna Das" },
     groomAddress: { locality: "Pethuya", city: "Subhasgram", pin: "700147", localityBengali: "Pethuya", cityBengali: "Subhasgram", pinBengali: "700147" },
+    brideAddress: { locality: "Sarberia", city: "Shibpur More", pin: "743372", localityBengali: "Sarberia", cityBengali: "Shibpur More", pinBengali: "743372" },
     brideImage: "/images/bride-riya.jpg",
     groomImage: "/images/groom-sanjib.jpg",
     coupleImage: "/images/memory-sunset.jpeg",
