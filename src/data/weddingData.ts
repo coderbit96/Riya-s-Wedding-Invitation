@@ -40,7 +40,7 @@ export const weddingData: WeddingData = {
     countdownImage: "/images/countdown-background.png",
   },
   story: { visible: false, eyebrow: "Our Story", heading: "Two Families, One Beautiful Beginning", description: "Two families, two hearts, and one beautiful beginning.", image: "/images/wedding-placeholder.svg", imageAlt: "Wedding photograph placeholder" },
-  events: [{ title: "Wedding Ceremony", titleBengali: "Wedding Ceremony", date: "11 December 2026", day: "Friday", time: "Evening", venue: "Swapandas / Bhabesh's Complex", address: "Sarberiya, Shibpur More", visible: true, icon: "heart" }],
+  events: [{ title: "Wedding Ceremony", titleBengali: "Wedding Ceremony", date: "11 December 2026", day: "Friday", time: "Evening", venue: "Swapandas / Bhabesh's Complex", address: "Sarberiya, Shibpur More", visible: true, icon: "heart", image: "/images/wedding-ceremony.jpg", imageAlt: "Wedding ceremony venue decorated in traditional red and gold" }],
   gallery: [
     { src: "/images/memory-sunset.jpeg", alt: "Riya and Sanjib together by the lake at sunset", caption: "Riya and Sanjib — Sunset by the Lake", category: "Wedding Memories", aspect: "portrait" },
     { src: "/images/memory-evening.jpeg", alt: "Riya and Sanjib sharing an evening together", caption: "Riya and Sanjib — An Evening Together", category: "Wedding Memories", aspect: "portrait" },
