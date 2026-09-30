@@ -77,7 +77,7 @@ export const weddingData: WeddingData = {
     invitation: { eyebrow: "With Love", heading: "You Are Warmly Invited", closing: "Your presence will be our greatest blessing." },
     countdown: { eyebrow: "Counting Down to Our Forever", heading: "Awaiting Our Beautiful Day", days: "Days", hours: "Hours", minutes: "Minutes", seconds: "Seconds", completedMessage: "Our new journey has begun." },
     events: { eyebrow: "Wedding Details", title: "The Wedding" },
-    gallery: { eyebrow: "Captured Moments", title: "A Page of Memories" },
+    gallery: { eyebrow: "Captured Moments", title: "A Page of Memories", backgroundImage: "/images/memories-background.png" },
     families: { eyebrow: "With Our Families", title: "Our Families", englishHeading: "Celebrating With Love and Blessings", groomLabel: "Groom's Family", brideLabel: "Bride's Family" },
     timeline: { eyebrow: "Our Journey", title: "Awaiting the Beautiful Day" },
     blessing: { eyebrow: "A Blessing", heading: "A Promise of Forever" },
