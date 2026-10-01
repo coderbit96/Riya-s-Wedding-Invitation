@@ -83,7 +83,7 @@ export const weddingData: WeddingData = {
     timeline: { eyebrow: "Our Journey", title: "Awaiting the Beautiful Day" },
     blessing: { eyebrow: "A Blessing", heading: "A Promise of Forever" },
     venue: { directionsLabel: "View Location", contactLabel: "Contact" },
-    rsvp: { eyebrow: "We Look Forward to Seeing You", heading: "Will You Join Us?", description: "Your presence will make this celebration even more meaningful.", whatsappLabel: "Confirm on WhatsApp", callLabel: "Call Us", submitLabel: "Send Message", mapHeading: "Bride's Address", mapDescription: "Find the way to Sarberia, Shibpur More.", mapButtonLabel: "Get Directions" },
+    rsvp: { eyebrow: "We Look Forward to Seeing You", heading: "Will You Join Us?", description: "Your presence will make this celebration even more meaningful.", whatsappLabel: "Confirm on WhatsApp", callLabel: "Call Us", submitLabel: "Send Message", mobileLabel: "Message", mapHeading: "Bride's Address", mapDescription: "Find the way to Sarberia, Shibpur More.", mapButtonLabel: "Get Directions" },
     preloader: { label: "A Wedding Celebration" },
     footer: { withLove: "With Love,", closingLine: "Your love and blessings are our most cherished gift.", copyright: "Riya and Sanjib · 11 December 2026" },
   },
