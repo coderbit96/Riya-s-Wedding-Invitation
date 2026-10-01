@@ -39,7 +39,7 @@ export function Quote() {
 
   return (
     <section ref={section} className="relative isolate overflow-hidden bg-dark-maroon px-6 py-32 text-center sm:py-44">
-      <Image src={quote.backgroundImage ?? couple.coupleImage} alt="" fill className="-z-20 object-cover" sizes="100vw" />
+      <Image src={quote.backgroundImage ?? couple.coupleImage} alt="" fill loading="lazy" className="-z-20 object-cover" sizes="100vw" />
       <div className="absolute inset-0 -z-10 bg-dark-maroon/85" />
       <div className="mx-auto max-w-5xl">
         <div ref={ornament} className="invisible">

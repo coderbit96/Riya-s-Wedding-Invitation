@@ -12,7 +12,7 @@ function FamilyColumn({ title, family, reverse = false }: { title: string; famil
       {family.photo && (
         <div className="relative mx-auto mb-8 aspect-[16/7] max-w-md overflow-hidden rounded-full border border-gold/50 p-1">
           <div className="relative h-full overflow-hidden rounded-full">
-            <Image src={family.photo} alt={family.photoAlt ?? title} fill className="object-cover" sizes="(max-width: 768px) 90vw, 38vw" />
+            <Image src={family.photo} alt={family.photoAlt ?? title} fill loading="lazy" className="object-cover" sizes="(max-width: 768px) 90vw, 38vw" />
           </div>
         </div>
       )}

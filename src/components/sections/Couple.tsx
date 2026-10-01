@@ -11,7 +11,7 @@ import { useWeddingLanguage } from "@/components/WeddingLanguage";
 gsap.registerPlugin(ScrollTrigger);
 
 function PortraitFrame({ image, name }: { image: string; name: string }) {
-  return <div className="relative mx-auto aspect-[4/5] w-full overflow-hidden rounded-sm border border-gold/60 bg-dark-maroon p-2"><div className="image-zoom relative h-full overflow-hidden rounded-sm"><Image src={image} alt={`${name} portrait placeholder`} fill className="object-cover" sizes="(max-width: 640px) 88vw, 28vw"/></div><span className="absolute left-0 top-0 h-12 w-12 border-l-2 border-t-2 border-gold"/><span className="absolute bottom-0 right-0 h-12 w-12 border-b-2 border-r-2 border-gold"/></div>;
+  return <div className="relative mx-auto aspect-[4/5] w-full overflow-hidden rounded-sm border border-gold/60 bg-dark-maroon p-2"><div className="image-zoom relative h-full overflow-hidden rounded-sm"><Image src={image} alt={`${name} portrait placeholder`} fill loading="lazy" className="object-cover" sizes="(max-width: 640px) 88vw, 28vw"/></div><span className="absolute left-0 top-0 h-12 w-12 border-l-2 border-t-2 border-gold"/><span className="absolute bottom-0 right-0 h-12 w-12 border-b-2 border-r-2 border-gold"/></div>;
 }
 
 function ParentDetails({ relationship, father, mother, addressLabel, address }: { relationship: string; father: string; mother: string; addressLabel?: string; address?: { locality: string; city: string; pin: string } }) {
