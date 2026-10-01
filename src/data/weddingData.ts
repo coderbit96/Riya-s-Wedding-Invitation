@@ -18,7 +18,7 @@ export const weddingData: WeddingData = {
     groomNameBengali: "Sanjib",
     brideParents: { father: "Mr. Bhim Pramanick", mother: "Mrs. Rita Pramanick", fatherBengali: "Mr. Bhim Pramanick", motherBengali: "Mrs. Rita Pramanick" },
     groomParents: { father: "Mr. Samir Das", mother: "Mrs. Swapna Das", fatherBengali: "Mr. Samir Das", motherBengali: "Mrs. Swapna Das" },
-    groomAddress: { locality: "Pethuya", city: "Subhasgram", pin: "700147", localityBengali: "Pethuya", cityBengali: "Subhasgram", pinBengali: "700147" },
+    groomAddress: { locality: "Petuya", city: "Subhasgram", pin: "700147", localityBengali: "Petuya", cityBengali: "Subhasgram", pinBengali: "700147" },
     brideAddress: { locality: "Sarberia", city: "Shibpur More", pin: "743372", localityBengali: "Sarberia", cityBengali: "Shibpur More", pinBengali: "743372" },
     brideImage: "/images/bride-riya.jpg",
     groomImage: "/images/groom-sanjib.jpg",
@@ -48,7 +48,7 @@ export const weddingData: WeddingData = {
   ],
   families: {
     brideFamily: { members: [{ name: "Riya", relation: "Bride" }, { name: "Mr. Bhim Pramanick", relation: "Father" }, { name: "Mrs. Rita Pramanick", relation: "Mother" }], message: "With warm love and blessings from Riya's family." },
-    groomFamily: { members: [{ name: "Sanjib", relation: "Groom" }, { name: "Mr. Samir Das", relation: "Father" }, { name: "Mrs. Swapna Das", relation: "Mother" }, { name: "Pethuya, Subhasgram", relation: "Address · PIN 700147" }], message: "With warm love and blessings from Sanjib's family." },
+    groomFamily: { members: [{ name: "Sanjib", relation: "Groom" }, { name: "Mr. Samir Das", relation: "Father" }, { name: "Mrs. Swapna Das", relation: "Mother" }, { name: "Petuya, Subhasgram", relation: "Address · PIN 700147" }], message: "With warm love and blessings from Sanjib's family." },
     extendedFamily: { brideSide: [], groomSide: [] },
   },
   venue: {
